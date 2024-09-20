@@ -10,6 +10,7 @@ import { MsOfficeIcon } from "../icons/ms-office-icon";
 import { NodeJsIcon } from "../icons/node-js-icon";
 import { ReactIcon } from "../icons/react-icon";
 import { ReactNativeIcon } from "../icons/react-native-icon";
+import { RemixIcon } from "../icons/remix-icon";
 import { TailwindIcon } from "../icons/tailwind-icon";
 import { TypeScriptIcon } from "../icons/typescript-icon";
 
@@ -28,6 +29,7 @@ export default function Skills() {
             <h2 className="text-xl font-extralight">Frontend</h2>
             <AngularIcon />
             <ReactIcon />
+            <RemixIcon />
             <ReactNativeIcon />
             <HtmlIcon />
             <CssIcon />

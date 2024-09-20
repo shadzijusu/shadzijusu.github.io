@@ -6,40 +6,42 @@ export default function Projects() {
     {
       title: "Roarington",
       description:
-        "Roarington is the virtual ecosystem of classic cars, where automotive cultural assets from the 20th century find a second digital life in the 21st century. Join the petrol head's community and access virtual showrooms, latest news, and get a digital twin of your classic car.",
+        "Roarington is a digital platform for classic car enthusiasts, where iconic cars from the 20th century are given a new life online. I contributed to building the platform frontend using Angular, Tailwind for styling, and GraphQL for data fetching. One of my main contributions was embedding 3D showrooms with Pixel Streaming, allowing users to explore detailed digital replicas of these classic cars directly in their browser.",
       image: "/images/roarington.webp",
       link: "https://roarington.com/",
-      toolsUsed: ["Angular", "Pixel Streaming", "Tailwind", "GraphQL"],
+      toolsUsed: ["Angular", "Tailwind", "GraphQL", "Pixel Streaming"],
     },
     {
       title: "OVRLAY",
       description:
-        "OVRLAY is your technology-driven immersive experience expert building multi-dimensional relations with your customers.",
+        "OVRLAY offers immersive, technology-driven experiences that help businesses engage with customers in innovative ways. My role involved developing the frontend using Remix, implementing a 3D showroom with AI-driven digital human, and bringing it to the frontend using Pixel Streaming. I also worked with GraphQL to optimize data flow, while utilizing Tailwind for clean and responsive design.",
       image: "/images/ovrlay.png",
       link: "https://ovrlay.world/",
-      toolsUsed: ["React", "GraphQL", "Tailwind", "Pixel Streaming"],
+      toolsUsed: ["Remix", "Tailwind", "GraphQL", "Pixel Streaming"],
     },
     {
       title: "BANZAI COLLECTION",
       description:
-        "BANZAI COLLECTION is the newest addition to BANZAI’s growing family of exclusive services and events bound by one common house motto: “Innovating the past & Preserving the future”.",
+        "BANZAI COLLECTION is all about blending innovation and heritage, offering exclusive services and events under the theme of preserving the past while embracing the future. I was responsible for building the frontend using Remix, ensuring that the platform is both visually appealing and user-friendly.",
       image: "/images/banzai.png",
       link: "https://banzai-collection.com/en/",
-      toolsUsed: ["React", "GraphQL", "Tailwind"],
+      toolsUsed: ["Remix", "GraphQL", "Tailwind"],
     },
   ];
 
   const AIProjects = [
     {
       title: "AI-Powered Marketing Automation",
-      description: "Developed an AI-driven system for automated marketing",
+      description:
+        "Creating content for traditional marketing channels such as newsletter and podcasts can be time-consuming and poses a challenge. I developed an AI-powered solution using OpenAI and make.com for automation, that automates that process using generative AI. For newsletters, the automation includes everything from creating the content, generating a suitable image for each article, to sending out the newsletter. For podcasts, the automation includes creating the content, generating an AI-based speech synthesis, and even publication of the podcast.",
       image: "/images/marketing-automation.png",
       link: "https://ovrlay.world/en/services/interaction",
       toolsUsed: ["OpenAI", "make.com"],
     },
     {
       title: "Showroom with AI-driven Digital Human",
-      description: "Developed an AI-driven digital human showroom",
+      description:
+        "Built an AI-powered digital human showroom featuring a digital twin of a car. The goal was to create an interactive experience where users could communicate with a lifelike avatar. I developed the showroom using Unreal Engine, and integrated OpenAI to give the digital human knowledge and a voice.",
       image: "/images/showroom.webp",
       link: "https://ovrlay.world/en/services/interaction#sonya",
       toolsUsed: ["OpenAI", "Unreal Engine", "Pixel Streaming"],
@@ -47,33 +49,34 @@ export default function Projects() {
   ];
   const mobileProjects = [
     {
-      title: "Experience Jablanica",
+      title: "Welcome to Konjic",
       description:
-        "App developed for smart board in the Museum for the battle.. on Neretva, created with React Native. Experience Jablanica to see cultural-historical and natural potential.",
-      image: "/images/jablanica.png",
-      link: "",
-      toolsUsed: ["React Native"],
-    },
-    {
-      title: "Medicine Mobile",
-      description:
-        "Upgraded app with new features like authentication creating account, log in sign up. Added tracking medication with reminders, adding different type of medication..",
-      image: "/images/medicine-mobile.png",
+        "A tourist app created using React Native, that offers an all-in-one guide to Konjic, featuring Tito's Bunker, museums, local restaurants, accommodation options, and traditional crafts. It offers insights into Konjic's cultural and historical landmarks.",
+      image: "/images/konjic.jpg",
       link: "",
       toolsUsed: ["React Native"],
     },
     {
       title: "STOLAC - Open Air Museum",
-      description: "Tourist app for Stolac, ...",
+      description:
+        "This is a tourist app designed for Stolac, known for its rich cultural and historical heritage. The app was developed using React Native and it serves as a guide, allowing users to explore the town's open-air museum and learn more about its historical sites and natural beauty.",
       image: "/images/stolac.png",
       link: "",
       toolsUsed: ["React Native"],
     },
     {
-      title: "Welcome to Konjic",
+      title: "Experience Jablanica",
       description:
-        "Tourist apps for Konjic, Titos bunker, reastaurants and acommondations in the city.",
-      image: "/images/konjic.jpg",
+        "I developed the app using React Native to let users explore the cultural, historical, and natural significance of Jablanica by interacting with different features the app offers.",
+      image: "/images/jablanica.png",
+      link: "",
+      toolsUsed: ["React Native"],
+    },
+    {
+      title: "Moji Lijekovi",
+      description:
+        "Upgraded an existing mobile app focused on helping users manage their medications. I implemented new features like user authentication and account management, and medication intake tracking with reminders. The app was developed using React Native.",
+      image: "/images/medicine-mobile.png",
       link: "",
       toolsUsed: ["React Native"],
     },
@@ -104,7 +107,7 @@ export default function Projects() {
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
 
-        <h2 className="text-2xl mt-12">Mobile Projects</h2>
+        <h2 className="text-2xl mt-12">React Native Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {mobileProjects.map((project) => (

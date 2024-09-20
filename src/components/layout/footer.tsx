@@ -4,7 +4,7 @@ import ContactForm from "../forms/contact-form";
 
 export default function Footer() {
   return (
-    <footer className="py-16 border-t md:px-12 bg-[#25202F] relative">
+    <footer className="py-48 border-t md:px-12 bg-[#25202F] relative">
       <div className="container">
         <h1 className="text-5xl w-full border-b pb-6 border-[#7E7F86] text-white">
           Contact Me
@@ -13,9 +13,9 @@ export default function Footer() {
         <div className="md:w-[40%] mt-4">
           <ContactForm />
         </div>
-        <div className="flex flex-row gap-4 items-center justify-center mt-6 text-white">
+        <div className="flex flex-row gap-4 items-center justify-center pt-10 md:pt-20 text-white">
           <a href="mailto:hadzijusufovicselma@gmail.com">
-            <MailIcon size={24} />
+            <MailIcon size={48} />
           </a>
           <a
             href="https://linkedin.com/in/selmahadzijusufovic"
