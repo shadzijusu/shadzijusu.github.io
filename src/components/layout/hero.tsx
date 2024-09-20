@@ -10,7 +10,7 @@ export default function Hero() {
           Hadžijusufović
         </h1>
         <p className="font-light text-lg">FRONTEND DEVELOPER</p>
-        <Button className="w-fit bg-[#8643DC] rounded-3xl border-[#8643DC] p-6 mt-16">
+        <Button className="w-fit bg-[#8643DC] rounded-3xl border-[#8643DC] p-6 mt-16 text-lg">
           Download CV
         </Button>
       </div>

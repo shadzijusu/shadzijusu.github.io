@@ -3,6 +3,8 @@ import Footer from "../components/layout/footer";
 import Hero from "../components/layout/hero";
 import AboutMe from "../components/ui/about-me";
 import Projects from "../components/ui/projects";
+import Experience from "../components/ui/experience";
+import Skills from "../components/ui/skills";
 
 export function Component() {
   return (
@@ -15,8 +17,14 @@ export function Component() {
         <section id="about-me">
           <AboutMe />
         </section>
+        <section id="experience">
+          <Experience />
+        </section>
         <section id="projects">
           <Projects />
+        </section>
+        <section id="skills">
+          <Skills />
         </section>
       </main>
       <section id="contact">

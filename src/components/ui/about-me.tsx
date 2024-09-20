@@ -1,7 +1,9 @@
 export default function AboutMe() {
   return (
     <div className="py-16 mb-16 container mx-auto">
-      <h1 className="font-bold text-5xl">About Me</h1>
+      <h1 className="font-bold text-5xl w-full border-b pb-6 border-[#7E7F86]">
+        About Me
+      </h1>
       <p className="py-4 max-w-3xl">
         I'm a Frontend Developer with a passion for building beautiful and
         user-friendly web applications. I graduated with a degree in Electrical

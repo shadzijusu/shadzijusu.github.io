@@ -1,3 +1,5 @@
+import { Link } from "lucide-react";
+
 export const ProjectCard = ({
   project,
 }: {
@@ -10,20 +12,37 @@ export const ProjectCard = ({
   };
 }) => {
   return (
-    <div className="border-2 border-white rounded-3xl p-6">
-      <h1 className="text-2xl font-bold">{project.title}</h1>
-      <img src={project.image} className="rounded-md h-48"></img>
-      <p className="max-w-2xl whitespace-normal">{project.description}</p>
-      <a href={project.link} target="_blank">
-        {project.link}
-      </a>
-      <div className="flex flex-col">
+    <div className="p-6 relative flex flex-col items-center">
+      <h1 className="text-2xl mb-4 text-center font-semibold">
+        {project.title}
+      </h1>
+      <div className="md:h-[460px]">
+        <img
+          src={project.image}
+          className="rounded-md w-full h-full object-cover object-center"
+          alt={project.title}
+        ></img>
+      </div>
+
+      <p className="max-w-xl whitespace-normal py-2 text-center">
+        {project.description}
+      </p>
+      <div className="flex flex-row py-2">
         {project.toolsUsed.map((tool) => (
-          <div className="rounded-md text-white p-2 border border-white w-fit h-fit text-xs">
-            {tool}
-          </div>
+          <div className="rounded-md p-2 w-fit h-fit text-sm">{tool}</div>
         ))}
       </div>
+      {project.link !== "" && (
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noreferrer"
+          className="flex flex-row items-center gap-2 hover:underline text-[#8643DC] absolute bottom-0"
+        >
+          <Link />
+          {project.link}
+        </a>
+      )}
     </div>
   );
 };

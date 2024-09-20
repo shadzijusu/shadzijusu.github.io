@@ -7,7 +7,7 @@ export default function Header() {
         <Link to="/">
           <img src="/logo.svg" alt="logo" className="h-6" />
         </Link>
-        <nav className="hidden flex-col gap-6 text-base md:flex md:flex-row md:items-center md:gap-10">
+        <nav className="hidden flex-col gap-6 text-base md:flex md:flex-row md:items-center md:gap-10 text-lg">
           <Link
             to="home"
             smooth
@@ -29,6 +29,16 @@ export default function Header() {
             About Me
           </Link>
           <Link
+            to="experience"
+            smooth
+            spy
+            activeClass="active"
+            className="text-[#7E7F86] capitalize hover:text-white hover:cursor-pointer"
+            offset={-80}
+          >
+            Experience
+          </Link>
+          <Link
             to="projects"
             smooth
             spy
@@ -37,6 +47,16 @@ export default function Header() {
             offset={-80}
           >
             Projects
+          </Link>
+          <Link
+            to="skills"
+            smooth
+            spy
+            activeClass="active"
+            className="text-[#7E7F86] capitalize hover:text-white hover:cursor-pointer"
+            offset={-80}
+          >
+            Skills
           </Link>
           <Link
             to="contact"

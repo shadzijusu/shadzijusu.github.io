@@ -65,7 +65,7 @@ export default function Projects() {
     {
       title: "STOLAC - Open Air Museum",
       description: "Tourist app for Stolac, ...",
-      image: "/images/stolac.jpg",
+      image: "/images/stolac.png",
       link: "",
       toolsUsed: ["React Native"],
     },
@@ -79,9 +79,13 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="py-16 mb-16  bg-[#25202F]">
-      <div className="container mx-auto text-white">
-        <h1 className="font-bold text-5xl">Frontend Projects</h1>
+    <div className="py-16 mb-16">
+      <div className="container mx-auto">
+        <h1 className="font-bold text-5xl w-full border-b pb-6 border-[#7E7F86]">
+          Projects
+        </h1>
+
+        <h2 className="text-2xl mt-12">Frontend Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {frontendProjects.map((project) => (
@@ -90,7 +94,7 @@ export default function Projects() {
           </div>
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
-        <h1 className="font-bold text-5xl">AI Projects</h1>
+        <h2 className="text-2xl mt-12">AI Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {AIProjects.map((project) => (
@@ -100,7 +104,7 @@ export default function Projects() {
           <ScrollBar orientation="horizontal" />
         </ScrollArea>
 
-        <h1 className="font-bold text-5xl">Mobile Projects</h1>
+        <h2 className="text-2xl mt-12">Mobile Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {mobileProjects.map((project) => (
