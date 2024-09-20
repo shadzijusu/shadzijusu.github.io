@@ -2,7 +2,7 @@ import { LinkedinIcon, MailIcon } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="py-6 md:py-16 border-t md:px-12 bg-gradient-to-b from-[#25202F] to-[#000000] ">
+    <footer className="py-6 md:py-16 border-t md:px-12 bg-gradient-to-b from-[#25202F] to-[#000000]">
       <div className="container text-white">
         <h1>Contact me</h1>
         <div className="flex flex-row">
