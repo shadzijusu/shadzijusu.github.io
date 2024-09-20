@@ -29,7 +29,9 @@ export const ProjectCard = ({
       </p>
       <div className="flex flex-row py-2">
         {project.toolsUsed.map((tool) => (
-          <div className="rounded-md p-2 w-fit h-fit text-sm">{tool}</div>
+          <div className="rounded-md p-2 w-fit h-fit text-sm" key={tool}>
+            {tool}
+          </div>
         ))}
       </div>
       {project.link !== "" && (

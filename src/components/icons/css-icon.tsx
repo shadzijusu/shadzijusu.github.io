@@ -19,56 +19,56 @@ export const CssIcon = () => (
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M111.214 465.261L79 103.954H432.982L400.734 465.202L255.777 505.392L111.214 465.261Z"
       fill="#0071BC"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.288 474.653L373.275 442.47L400.685 134.043H256.288V474.653Z"
       fill="#29ABE2"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M152.738 266.786L156.619 311.034L256.288 266.786V222.466L152.738 266.786Z"
       fill="#B3B3B3"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M366.676 175.158L256.288 222.466V266.786L362.87 219.405L366.676 175.158Z"
       fill="#E6E6E6"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.288 382.559L255.946 382.611L206.517 369.336L203.288 334.042H158.802L165.01 403.573L255.936 428.75L256.288 428.666V382.559Z"
       fill="#E6E6E6"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.288 266.786V311.034H310.405L305.487 368.884L256.288 382.597V428.701L346.913 403.525L358.847 266.786H256.288Z"
       fill="white"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.288 266.786H152.738L156.619 311.034H256.288V266.786Z"
       fill="#E6E6E6"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.289 219.405V175.158H255.839H144.871L148.797 219.405H256.289Z"
       fill="#E6E6E6"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M256.288 175.158V218.85V219.405H362.87L366.676 175.158H256.288Z"
       fill="white"
     />

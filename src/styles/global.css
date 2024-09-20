@@ -74,3 +74,35 @@
 a.active {
   @apply text-white font-bold;
 }
+
+.sidenav {
+  @apply w-[300px] lg:w-[540px];
+}
+
+.sidenav_title {
+  @apply border-none;
+}
+
+.sidenav_logo__container {
+  @apply lg:text-xl font-bold lg:mr-6;
+}
+
+.sidenav_logo__container a {
+  @apply flex items-center space-x-4 lg:space-x-6 text-white;
+}
+
+.sidenav__trigger {
+  @apply h-6 w-6 mr-4;
+}
+
+.sidenav nav {
+  @apply flex flex-col space-y-6 mt-10 items-center;
+}
+
+.sidenav nav a {
+  @apply font-medium text-muted-foreground transition-colors hover:text-primary;
+}
+
+.sidenav nav a.active {
+  @apply font-medium text-white;
+}

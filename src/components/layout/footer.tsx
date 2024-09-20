@@ -1,19 +1,31 @@
 import { MailIcon } from "lucide-react";
 import { LinkedinIcon } from "../icons/linkedin-icon";
+import ContactForm from "../forms/contact-form";
 
 export default function Footer() {
   return (
-    <footer className="py-6 md:py-16 border-t md:px-12 bg-gradient-to-b from-[#25202F] to-[#000000] relative">
-      <div className="container text-white">
-        <div className="flex flex-row gap-4 items-center justify-center">
+    <footer className="py-16 border-t md:px-12 bg-[#25202F] relative">
+      <div className="container">
+        <h1 className="text-5xl w-full border-b pb-6 border-[#7E7F86] text-white">
+          Contact Me
+        </h1>
+
+        <div className="md:w-[40%] mt-4">
+          <ContactForm />
+        </div>
+        <div className="flex flex-row gap-4 items-center justify-center mt-6 text-white">
           <a href="mailto:hadzijusufovicselma@gmail.com">
-            <MailIcon size={48} />
+            <MailIcon size={24} />
           </a>
-          <a href="www.linkedin.com/in/selmahadzijusufovic">
+          <a
+            href="https://linkedin.com/in/selmahadzijusufovic"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedinIcon />
           </a>
         </div>
-        <p className="text-md text-white absolute bottom-2">
+        <p className="text-md text-white absolute bottom-2 right-4 font-light">
           © 2024 Selma Hadžijusufović. All rights reserved.
         </p>
       </div>

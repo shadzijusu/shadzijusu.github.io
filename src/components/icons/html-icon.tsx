@@ -28,15 +28,15 @@ export const HtmlIcon = () => (
       <g id="symbol">
         <path
           id="Shape"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M110.855 465.841L78.6182 104.262H432.851L400.579 465.784L255.518 506L110.855 465.841Z"
           fill="#E44D26"
         />
         <path
           id="Shape_2"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M255.734 475.261L372.951 442.764L400.529 133.826H255.734V475.261Z"
           fill="#F16529"
         />

@@ -89,7 +89,7 @@ export default function Projects() {
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {frontendProjects.map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} key={project.title} />
             ))}
           </div>
           <ScrollBar orientation="horizontal" />
@@ -98,7 +98,7 @@ export default function Projects() {
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {AIProjects.map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} key={project.title} />
             ))}
           </div>
           <ScrollBar orientation="horizontal" />
@@ -108,7 +108,7 @@ export default function Projects() {
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
           <div className="flex w-max space-x-4 p-4">
             {mobileProjects.map((project) => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} key={project.title} />
             ))}
           </div>
           <ScrollBar orientation="horizontal" />

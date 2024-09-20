@@ -1,13 +1,14 @@
 import { Link } from "react-scroll";
+import { SideNav } from "./sidenav";
 
 export default function Header() {
   return (
     <header className="h-20 flex items-center gap-4 z-[1] bg-[#25202F] sticky top-0 z-10">
       <div className="container h-16 flex items-center justify-between">
         <Link to="/">
-          <img src="/logo.svg" alt="logo" className="h-6" />
+          <img src="/logo.svg" alt="logo" className="h-8" />
         </Link>
-        <nav className="hidden flex-col gap-6 text-base md:flex md:flex-row md:items-center md:gap-10 text-lg">
+        <nav className="hidden flex-col gap-6 text-base lg:flex lg:flex-row lg:items-center lg:gap-10 text-lg">
           <Link
             to="home"
             smooth
@@ -69,6 +70,10 @@ export default function Header() {
             Contact
           </Link>
         </nav>
+      </div>
+
+      <div className="flex lg:hidden pl-2">
+        <SideNav />
       </div>
     </header>
   );
