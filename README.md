@@ -6,7 +6,5 @@ This repository contains the source code for my personal portfolio website, wher
 - Project showcase with detailed descriptions and demos
 - Experience section highlighting work history and key accomplishments
 - Skills overview with a focus on relevant technologies and tools
-- Contact form for collaboration opportunities
+- Contact form
 
-## Technologies used
-- React & Tailwind
