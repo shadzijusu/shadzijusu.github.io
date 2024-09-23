@@ -1,7 +1,7 @@
 export const LinkedinIcon = () => (
   <svg
-    width="46"
-    height="46"
+    width="32"
+    height="32"
     viewBox="0 0 49 48"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

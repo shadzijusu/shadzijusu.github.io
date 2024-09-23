@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-row gap-4 items-center justify-center pt-10 md:pt-20 text-white">
           <a href="mailto:hadzijusufovicselma@gmail.com">
-            <MailIcon size={48} />
+            <MailIcon size={36} />
           </a>
           <a
             href="https://linkedin.com/in/selmahadzijusufovic"
