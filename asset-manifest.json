@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%7Bshadzijusu.github.io%7D/static/css/main.68bdf3c0.css",
+    "main.js": "/%7Bshadzijusu.github.io%7D/static/js/main.2f539289.js",
+    "static/js/612.9cb081f7.chunk.js": "/%7Bshadzijusu.github.io%7D/static/js/612.9cb081f7.chunk.js",
+    "static/js/713.263221d7.chunk.js": "/%7Bshadzijusu.github.io%7D/static/js/713.263221d7.chunk.js",
+    "static/media/ClashDisplay-Variable.ttf": "/%7Bshadzijusu.github.io%7D/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
+    "static/media/ClashDisplay-Variable.woff2": "/%7Bshadzijusu.github.io%7D/static/media/ClashDisplay-Variable.27b50dcdd5ced9f74da0.woff2",
+    "static/media/ClashDisplay-Variable.woff": "/%7Bshadzijusu.github.io%7D/static/media/ClashDisplay-Variable.d2735542013ee4bde5ad.woff",
+    "index.html": "/%7Bshadzijusu.github.io%7D/index.html",
+    "main.68bdf3c0.css.map": "/%7Bshadzijusu.github.io%7D/static/css/main.68bdf3c0.css.map",
+    "main.2f539289.js.map": "/%7Bshadzijusu.github.io%7D/static/js/main.2f539289.js.map",
+    "612.9cb081f7.chunk.js.map": "/%7Bshadzijusu.github.io%7D/static/js/612.9cb081f7.chunk.js.map",
+    "713.263221d7.chunk.js.map": "/%7Bshadzijusu.github.io%7D/static/js/713.263221d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bdf3c0.css",
+    "static/js/main.2f539289.js"
+  ]
+}
