@@ -9,4 +9,4 @@ This repository contains the source code for my personal portfolio website, wher
 - Contact form for collaboration opportunities
 
 ## Technologies used
-- React Native & Tailwind
+- React & Tailwind
