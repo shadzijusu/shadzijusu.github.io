@@ -12,9 +12,11 @@ export const ProjectCard = ({
   };
 }) => {
   return (
-    <div className="p-4 md:p-6 relative flex flex-col items-start md:items-center">
-      <h1 className="text-2xl mb-4 text-center font-medium">{project.title}</h1>
-      <div className="h-[200px] md:h-[360px]">
+    <div className="p-2 md:p-6 relative flex flex-col items-center">
+      <h1 className="text-lg md:text-2xl mb-4 text-center font-medium">
+        {project.title}
+      </h1>
+      <div className="w-[400px] md:w-auto h-[200px] md:h-[360px]">
         <img
           src={project.image}
           className="rounded-md w-full h-full object-cover object-center"
@@ -22,7 +24,7 @@ export const ProjectCard = ({
         ></img>
       </div>
 
-      <p className="max-w-[400px] md:max-w-xl whitespace-normal py-4 md:text-center ">
+      <p className="max-w-[350px] md:max-w-xl whitespace-normal py-4 md:text-center ">
         {project.description}
       </p>
       <div className="flex flex-row py-2 space-x-4 mb-4">

@@ -9,7 +9,7 @@ export default function Projects() {
         "Roarington is a digital platform for classic car enthusiasts, where iconic cars from the 20th century are given a new life online. I contributed to building the platform frontend using Angular, Tailwind for styling, and GraphQL for data fetching. One of my main contributions was embedding 3D showrooms with Pixel Streaming, allowing users to explore detailed digital replicas of these classic cars directly in their browser.",
       image: "/images/roarington.webp",
       link: "https://roarington.com/",
-      toolsUsed: ["Angular", "Tailwind", "GraphQL", "Pixel Streaming"],
+      toolsUsed: ["Angular", "Tailwind", "GraphQL"],
     },
     {
       title: "OVRLAY",
@@ -17,7 +17,7 @@ export default function Projects() {
         "OVRLAY offers immersive, technology-driven experiences that help businesses engage with customers in innovative ways. My role involved developing the frontend using Remix, implementing a 3D showroom with AI-driven digital human, and bringing it to the frontend using Pixel Streaming. I also worked with GraphQL to optimize data flow, while utilizing Tailwind for clean and responsive design.",
       image: "/images/ovrlay.png",
       link: "https://ovrlay.world/",
-      toolsUsed: ["Remix", "Tailwind", "GraphQL", "Pixel Streaming"],
+      toolsUsed: ["Remix", "Tailwind", "GraphQL"],
     },
     {
       title: "BANZAI COLLECTION",
@@ -90,7 +90,7 @@ export default function Projects() {
 
         <h2 className="text-2xl mt-12">Frontend Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
-          <div className="flex w-max space-x-4 p-4">
+          <div className="flex w-max space-x-4 p-2 md:p-4">
             {frontendProjects.map((project) => (
               <ProjectCard project={project} key={project.title} />
             ))}
@@ -99,7 +99,7 @@ export default function Projects() {
         </ScrollArea>
         <h2 className="text-2xl mt-12">AI Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
-          <div className="flex w-max space-x-4 p-4">
+          <div className="flex w-max space-x-4 p-2 md:p-4">
             {AIProjects.map((project) => (
               <ProjectCard project={project} key={project.title} />
             ))}
@@ -109,7 +109,7 @@ export default function Projects() {
 
         <h2 className="text-2xl mt-12">React Native Projects</h2>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
-          <div className="flex w-max space-x-4 p-4">
+          <div className="flex w-max space-x-4 p-2 md:p-4">
             {mobileProjects.map((project) => (
               <ProjectCard project={project} key={project.title} />
             ))}
