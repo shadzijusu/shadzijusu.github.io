@@ -95,7 +95,10 @@ export default function Projects() {
       </section>
       <VerticalCardSlider title="AI Projects" slides={AIProjects} />
 
-      <VerticalCardSlider title="Mobile Projects" slides={mobileProjects} />
+      <VerticalCardSlider
+        title="React Native Projects"
+        slides={mobileProjects}
+      />
     </div>
   );
 }
