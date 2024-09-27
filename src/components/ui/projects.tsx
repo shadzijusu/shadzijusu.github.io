@@ -32,7 +32,7 @@ export default function Projects() {
     {
       title: "AI-Powered Marketing Automation",
       description:
-        "Creating content for traditional marketing channels such as newsletter and podcasts can be time-consuming and poses a challenge. I developed an AI-powered solution using OpenAI and make.com for automation, that automates that process using generative AI. For newsletters, the automation includes everything from creating the content, generating a suitable image for each article, to sending out the newsletter.",
+        "Creating content for traditional marketing channels such as newsletter and podcasts can be time-consuming. I developed an AI-powered solution using OpenAI and make.com, that automates that process using generative AI. For newsletters, the automation includes everything from creating the content, generating a suitable image for each article, to sending out the newsletter.",
       image: "/images/marketing-automation.png",
       toolsUsed: ["OpenAI", "make.com"],
       link: "https://ovrlay.world/en/services/interaction",
@@ -84,7 +84,7 @@ export default function Projects() {
 
   return (
     <div className="bg-[#25202F] py-16 text-white">
-      <h1 className="font-bold text-5xl w-full border-b pb-6 border-[#7E7F86] text-white container mx-auto">
+      <h1 className="font-bold text-5xl w-full lg:border-b pb-6 border-[#7E7F86] text-white container mx-auto">
         Projects
       </h1>
       <section className="bg-[#25202F]">

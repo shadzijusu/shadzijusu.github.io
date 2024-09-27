@@ -63,9 +63,6 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply font-display bg-background text-foreground;
   }
@@ -108,5 +105,5 @@ a.active {
 }
 
 .page {
-  @apply container py-16 md:py-28;
+  @apply px-4 md:container py-16 md:py-28;
 }

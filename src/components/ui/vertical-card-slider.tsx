@@ -94,7 +94,7 @@ export const VerticalCardSlider = ({
         )}
       >
         <div className="page">
-          <h2 className="landscape:text-[5rem] text-center landscape:text-left">
+          <h2 className="text-[3rem] lg:text-[5rem] text-center landscape:text-left">
             {title}
           </h2>
         </div>
@@ -128,7 +128,7 @@ export const VerticalCardSlider = ({
                   href={slide.link || ""}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-row items-center gap-2 hover:underline text-white"
+                  className="flex flex-row items-center gap-2 hover:underline text-white max-w-[300px] md:max-w-full break-all text-sm md:text-lg"
                 >
                   <Link size={20} />
                   {slide.link}
