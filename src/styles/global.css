@@ -106,3 +106,7 @@ a.active {
 .sidenav nav a.active {
   @apply font-medium text-white;
 }
+
+.page {
+  @apply container py-16 md:py-28;
+}

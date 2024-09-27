@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div className="py-16 mb-16 bg-[#25202F]">
+    <div className="py-16 bg-[#25202F]">
       <div className="w-full text-white p-4 container mx-auto">
         <h1 className="font-semibold md:font-bold text-5xl w-full border-b pb-6 border-[#7E7F86]">
           Experience
@@ -52,7 +52,7 @@ export default function Experience() {
             </p>
           </div>
 
-          <div className="mb-8 relative pl-8 md:pl-20">
+          <div className="relative pl-8 md:pl-20">
             <div className="absolute left-[-8px] w-3 h-3 bg-[#7E7F86] rounded-full"></div>
             <p className="text-md mb-2 text-[#7E7F86]">2021 - 2022</p>
             <h2 className="font-semibold text-3xl">P23 d.o.o.</h2>

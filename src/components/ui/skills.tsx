@@ -16,7 +16,7 @@ import { TypeScriptIcon } from "../icons/typescript-icon";
 
 export default function Skills() {
   return (
-    <div className="py-16 bg-[#25202F] text-white">
+    <div className="py-16 bg-white text-[#25202F]">
       <div className="container mx-auto">
         <h1 className="font-semibold md:font-bold text-5xl w-full border-b pb-6 border-[#7E7F86]">
           Skills
@@ -26,7 +26,7 @@ export default function Skills() {
 
         <div className="grid grid-cols-3 md:grid-cols-1 gap-6">
           <div className="flex flex-col md:flex-row gap-6 md:items-center">
-            <h2 className="text-xl font-extralight">Frontend</h2>
+            <h2 className="text-xl">Frontend</h2>
             <AngularIcon />
             <ReactIcon />
             <RemixIcon />
@@ -39,26 +39,26 @@ export default function Skills() {
           </div>
 
           <div className="flex flex-col md:flex-row gap-6 md:items-center">
-            <h2 className="text-xl font-extralight">Backend</h2>
+            <h2 className="text-xl">Backend</h2>
             <CSharpIcon />
             <NodeJsIcon />
             <GraphQLIcon />
           </div>
 
           <div className="flex flex-col md:flex-row gap-6 md:items-center">
-            <h2 className="text-xl font-extralight">Tools</h2>
+            <h2 className="text-xl">Tools</h2>
             <GitIcon />
             <AzureIcon />
             <MsOfficeIcon />
           </div>
         </div>
         <div className="flex flex-row gap-6 mt-6 items-center">
-          <h2 className="text-xl font-extralight">Methodologies</h2>
+          <h2 className="text-xl">Methodologies</h2>
           <p className="text-lg">Agile, Scrum</p>
         </div>
 
         <h2 className="text-2xl mt-12 font-semibold">Soft skills</h2>
-        <p className="text-xl font-light mt-2">
+        <p className="text-xl mt-2">
           Teamwork, communication, problem-solving, time-management,
           adaptability
         </p>
