@@ -3,6 +3,14 @@ import { VerticalCardSlider } from "./vertical-card-slider";
 export default function Projects() {
   const frontendProjects = [
     {
+      title: "MyCollection",
+      description:
+        "Created an innovative digital platform that modernizes car collection management. The solution features interactive 3D experiences for virtual car showcasing, AI-powered tools for image enhancement, and intelligent document processing that automatically extracts data. This digital assistant transforms how collectors preserve and showcase their automotive treasures, blending practical management tools with engaging technology to simplify their day-to-day tasks.",
+      image: "/images/mycollection.webp",
+      toolsUsed: ["React", "Tailwind", "GraphQL"],
+      link: "https://www.mycollection.world/",
+    },
+    {
       title: "Roarington",
       description:
         "Roarington is a digital platform for classic car enthusiasts, where iconic cars from the 20th century are given a new life online. I contributed to building the platform frontend using Angular, Tailwind for styling, and GraphQL for data fetching. One of my main contributions was embedding 3D showrooms with Pixel Streaming, allowing users to explore detailed digital replicas of these classic cars directly in their browser.",

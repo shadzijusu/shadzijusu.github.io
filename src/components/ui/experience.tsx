@@ -33,7 +33,7 @@ export default function Experience() {
 
           <div className="mb-8 relative pl-8 md:pl-20">
             <div className="absolute left-[-8px] w-3 h-3 bg-[#7E7F86] rounded-full"></div>
-            <p className="text-md mb-2 text-[#7E7F86]">2021 - 2022</p>
+            <p className="text-md mb-2 text-[#7E7F86]">2021 - Present</p>
             <h2 className="font-semibold text-3xl">
               Entrepreneurship and Business Association Link
             </h2>
@@ -54,7 +54,7 @@ export default function Experience() {
 
           <div className="relative pl-8 md:pl-20">
             <div className="absolute left-[-8px] w-3 h-3 bg-[#7E7F86] rounded-full"></div>
-            <p className="text-md mb-2 text-[#7E7F86]">2021 - 2022</p>
+            <p className="text-md mb-2 text-[#7E7F86]">2018 - 2022</p>
             <h2 className="font-semibold text-3xl">P23 d.o.o.</h2>
             <p className="mt-4">
               At P23, I was responsible for budget, payroll, and expenses
